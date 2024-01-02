@@ -277,6 +277,7 @@ class Ui_MainWindow(object):
         self.btnClear.setIconSize(QtCore.QSize(50, 20))
         self.btnClear.setObjectName("btnClear")
         self.txtDisplay = QtWidgets.QTextEdit(self.Calculator)
+        self.txtDisplay.setReadOnly(True)
         self.txtDisplay.setGeometry(QtCore.QRect(10, 10, 430, 120))
         font = QtGui.QFont()
         font.setPointSize(35)
